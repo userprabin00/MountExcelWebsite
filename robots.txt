@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /database/
+Disallow: /backups/
+Disallow: /logs/
+
+Sitemap: https://mountexcel.edu.np/sitemap.xml

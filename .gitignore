@@ -1,0 +1,38 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+logs/*
+!logs/.htaccess
+!logs/.gitkeep
+backups/*
+!backups/.htaccess
+!backups/.gitkeep
+database/.setup_completed
+*.log
+
+# User uploaded media (keep the upload directories and protections)
+uploads/gallery/*
+!uploads/gallery/.htaccess
+!uploads/gallery/.gitkeep
+uploads/staff/*
+!uploads/staff/.htaccess
+!uploads/staff/.gitkeep
+
+# Generated release artifacts and temporary files
+release/
+scratch/
+*.zip
+*.tar.gz
+*.rar
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
